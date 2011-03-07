@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <head>
   <meta char-set="utf-8">
-  <title>{% block title %} Data Flakes: Part of a Balanced Breakfast{% endblock %}</title>
+  <title>{% block title %} Data Flakes: Part of a Balanced Breakfast{% end %}</title>
   <link rel="stylesheet" type="text/css" href="{{ static_url("css/style.css") }}" />
   <script></script>
 </head>
 <body>
-
+  <header>
+    <h1>Data Flakes</h1>
+    <h2>part of a balanced breakfast</h2>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/cereals">Cereal Index</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    {% block content %}
+    {% end %}
+  </section>
+  <footer>
+  </footer>
 </body>
 </html>

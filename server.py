@@ -17,11 +17,19 @@ class CerealHandler(tornado.web.RequestHandler):
     def get(self, cereal_id=None):
         self.write("Hello, world")
 
+
+class AboutHandler(tornado.web.RequestHandler):
+
+    def get(self, cereal_id=None):
+        self.render("templates/about.html")
+
+
 application = tornado.web.Application([
     (r"/", MainHandler),
     (r"/cereals", CerealHandler),
+    (r"/about", AboutHandler),
     (r"/cereals/[\w]+", CerealHandler),
-])
+], **settings)
 
 if __name__ == "__main__":
     application.listen(8888)
