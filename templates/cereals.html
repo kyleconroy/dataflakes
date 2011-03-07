@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if cereal %}
+
+<h1> {{ cereal["name"] }} </h1>
+
+{% else %}
+
+<h1>Pick a cereal from below!<h1>
+
+{% end %}
+
+{% end %}

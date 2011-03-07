@@ -1,3 +1,4 @@
+import json
 import os
 import tornado.ioloop
 import tornado.web
@@ -5,7 +6,10 @@ import tornado.web
 settings = {
     "static_path": os.path.join(os.path.dirname(__file__), "static"),
     "cookie_secret": "61oETzKXQAGaYdkL5gEmGeJJFuYh7EQnp2XdTP1o/Vo=",
-}
+    }
+
+cereals = json.load(open("data/cereals.json"))
+cereal_names = set(cereals.keys())
 
 class MainHandler(tornado.web.RequestHandler):
 
@@ -15,7 +19,14 @@ class MainHandler(tornado.web.RequestHandler):
 class CerealHandler(tornado.web.RequestHandler):
 
     def get(self, cereal_id=None):
-        self.write("Hello, world")
+        print cereal_id
+        if not cereal_id:
+            cereal = False
+        elif cereal_id in cereal_names:
+            cereal = cereals[cereal_id]
+        else:
+            raise tornado.web.HTTPError(404)
+        self.render("templates/cereals.html", cereal=cereal)
 
 
 class AboutHandler(tornado.web.RequestHandler):
@@ -26,9 +37,9 @@ class AboutHandler(tornado.web.RequestHandler):
 
 application = tornado.web.Application([
     (r"/", MainHandler),
+    (r"/cereals/(\w+)", CerealHandler),
     (r"/cereals", CerealHandler),
     (r"/about", AboutHandler),
-    (r"/cereals/[\w]+", CerealHandler),
 ], **settings)
 
 if __name__ == "__main__":

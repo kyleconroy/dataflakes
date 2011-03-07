@@ -13,14 +13,7 @@ MANUFACTURER = {
     "R": "Ralston Purina",
     }
 
-def manufacturer(abbr):
-    """Given an abbriviation, return a dictionary"""
-    if abbr == -1:
-        return {"name": "Unknown"}
-    else:
-        return {"name":MANUFACTURER[abbr]}
-
-
+# From http://djangosnippets.org/snippets/29/
 def slugify(inStr):
     removelist = ["a", "an", "as", "at", "before", "but", "by", "for","from","is", "in", "into", "like", "of", "off", "on", "onto","per","since", "than", "the", "this", "that", "to", "up", "via","with"];
     for a in removelist:
@@ -28,6 +21,13 @@ def slugify(inStr):
     aslug = re.sub('[^\w\s-]', '', aslug).strip().lower()
     aslug = re.sub('\s+', '-', aslug)
     return aslug
+
+def manufacturer(abbr):
+    """Given an abbriviation, return a dictionary"""
+    if abbr == -1:
+        return {"name": "Unknown"}
+    else:
+        return {"name":MANUFACTURER[abbr]}
 
 def cereal(row):
     """Given a row of values, return a dictionary"""
