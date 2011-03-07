@@ -8,7 +8,7 @@ settings = {
     "cookie_secret": "61oETzKXQAGaYdkL5gEmGeJJFuYh7EQnp2XdTP1o/Vo=",
     }
 
-cereals = json.load(open("data/cereals.json"))
+cereals = json.load(open("static/data/cereals.json"))
 cereal_names = set(cereals.keys())
 
 class MainHandler(tornado.web.RequestHandler):
@@ -46,7 +46,7 @@ application = tornado.web.Application([
     (r"/cereals/(\w+)", CerealHandler),
     (r"/cereals", CerealHandler),
     (r"/about", AboutHandler),
-    (r"/download", DownloadHandler),
+    (r"/export", DownloadHandler),
 ], **settings)
 
 if __name__ == "__main__":

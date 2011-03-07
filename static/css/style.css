@@ -49,13 +49,6 @@ table {
 	border-spacing: 0;
 }
 
-button:hover {
-  cursor: pointer;
-}
-button::-moz-focus-inner {
-  border:0;
-}
-
 /* thoughtbot (inspired by thoughtbot.com)
 *******************************************************************************/
 a.thoughtbot {
@@ -98,6 +91,11 @@ a.thoughtbot:active {
   box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
 }
 
+a.download {
+  display: inline-block;
+  margin: 25px 0 0 25px;
+}
+
 
 body > section { width: 700px; margin-left: auto; margin-right: auto; }
 
@@ -105,7 +103,7 @@ header {
   width: 100%;
   background: #393939;
   border-top: 5px solid #262626;
-  margin-bottom: 15px;
+  margin-bottom: 1em;
 }
 
 header > div { position: relative; width: 700px; margin-left: auto; margin-right: auto; padding: 10px 0;}
@@ -120,4 +118,5 @@ header nav ul li { display: inline-block; margin-left: 15px;}
 header nav ul li a{ text-decoration: none; color: #CCCCCC; font-family: 'Kreon', arial, serif; font-size: 1em;}
 header nav ul li a:hover{ color: #FFFFFF }
 
-section h1 { font-size: 2em; margin-bottom: 10px}
+section h1 { font-size: 2em; margin-bottom: 1em}
+section p { margin-bottom: 1em; line-height: 16pt;}
