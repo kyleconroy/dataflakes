@@ -31,8 +31,14 @@ class CerealHandler(tornado.web.RequestHandler):
 
 class AboutHandler(tornado.web.RequestHandler):
 
-    def get(self, cereal_id=None):
+    def get(self):
         self.render("templates/about.html")
+
+
+class DownloadHandler(tornado.web.RequestHandler):
+
+    def get(self):
+        self.render("templates/download.html")
 
 
 application = tornado.web.Application([
@@ -40,6 +46,7 @@ application = tornado.web.Application([
     (r"/cereals/(\w+)", CerealHandler),
     (r"/cereals", CerealHandler),
     (r"/about", AboutHandler),
+    (r"/download", DownloadHandler),
 ], **settings)
 
 if __name__ == "__main__":
