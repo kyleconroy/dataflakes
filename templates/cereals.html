@@ -4,12 +4,78 @@
 
 {% if cereal %}
 
+ <script type="text/javascript+protovis">
+   /* Sizing and scales. */
+var w = 200,
+    h = 20,
+    fat = pv.Scale.linear(0, 65).range(0, w),
+    sod = pv.Scale.linear(0, 2300).range(0, w),
+    pot = pv.Scale.linear(0, 4700).range(0, w),
+    fib = pv.Scale.linear(0, 25).range(0, w),
+    cal = pv.Scale.linear(0, 2000).range(0, w),
+    pro = pv.Scale.linear(0, 50).range(0, w);
+
+var rdi = function(d, n, name) {
+
+var x = pv.Scale.linear(0, n).range(0, w);
+
+var vis = new pv.Panel()
+   .width(w)
+   .height(h)
+   .left(50)
+   .right(50)
+   .bottom(25);
+
+var bar = vis.add(pv.Bar)
+   .data([d])
+   .height(20)
+   .width(function(d) x(d))
+   .left(0);
+
+bar.anchor("left").add(pv.Label)
+   .textAlign("right")
+   .textMargin(5)
+   .text(name)
+   .fillStyle("black");
+
+vis.add(pv.Rule)
+   .data([0, n])
+   .left(x)
+   .strokeStyle("#000")
+   .anchor("bottom").add(pv.Label)
+     .text(x.tickFormat);
+
+   vis.render();
+   }
+ </script>
+
 <h1> {{ cereal["name"] }} </h1>
+<h2> {{ cereal["manufacturer"]["name"] }} </h2>
+
+{% for v in data %}
+<figure>
+  <script type="text/javascript+protovis">
+    rdi({{ v["amount"] }}, {{v["rdi"]}}, "{{v["name"]}}");
+  </script>
+</figure>
+{% end %}
+
 
 {% else %}
 
-<h1>Pick a cereal from below!<h1>
+<h1>Choose your cereal</h1>
+
+<nav id="cereals">
+  <ul>
+    {% for c in cereals %}
+    <li>
+      <a href="/cereals/{{ c["slug"] }}">{{ c["name"] }}</a>
+    </li>
+    {% end %}
+  </ul>
+</nav>
 
 {% end %}
+
 
 {% end %}

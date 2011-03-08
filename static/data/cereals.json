@@ -1,3619 +1,1540 @@
 {
     "grape-nuts-flakes": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Grape Nuts Flakes", 
-        "sodium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "85", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.88", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "grape-nuts-flakes", 
+        "serving_weight": "1",
+        "name": "Grape Nuts Flakes",
+        "sodium": "140",
+        "vitamins_minerals": "25",
+        "potassium": "85",
+        "sugars": "5",
+        "calories": "100",
+        "fat": "1",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "0.88",
+        "protein": "3",
+        "complex_carbohydrates": "15",
+        "type": "cold",
+        "slug": "grape-nuts-flakes",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "quaker-oatmeal": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Quaker Oatmeal", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "0", 
-        "potassium": {
-            "amount": "110", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "-1", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2.7", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "-1", 
-            "unit": "grams"
-        }, 
-        "type": "hot", 
-        "slug": "quaker-oatmeal", 
+        "serving_weight": "1",
+        "name": "Quaker Oatmeal",
+        "sodium": "0",
+        "vitamins_minerals": "0",
+        "potassium": "110",
+        "sugars": "-1",
+        "calories": "100",
+        "fat": "2",
+        "dietary_fiber": "2.7",
+        "display_shelf": "1",
+        "cups_per_serving": "0.67",
+        "protein": "5",
+        "complex_carbohydrates": "-1",
+        "type": "hot",
+        "slug": "quaker-oatmeal",
         "manufacturer": {
             "name": "Quaker Oats"
         }
-    }, 
+    },
     "wheaties": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Wheaties", 
-        "sodium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "110", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "17", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "wheaties", 
+        "serving_weight": "1",
+        "name": "Wheaties",
+        "sodium": "200",
+        "vitamins_minerals": "25",
+        "potassium": "110",
+        "sugars": "3",
+        "calories": "100",
+        "fat": "1",
+        "dietary_fiber": "3",
+        "display_shelf": "1",
+        "cups_per_serving": "1",
+        "protein": "3",
+        "complex_carbohydrates": "17",
+        "type": "cold",
+        "slug": "wheaties",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "100-natural-bran": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "100% Natural Bran", 
-        "sodium": {
-            "amount": "15", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "0", 
-        "potassium": {
-            "amount": "135", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "8", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "8", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "100-natural-bran", 
+        "serving_weight": "1",
+        "name": "100% Natural Bran",
+        "sodium": "15",
+        "vitamins_minerals": "0",
+        "potassium": "135",
+        "sugars": "8",
+        "calories": "120",
+        "fat": "5",
+        "dietary_fiber": "2",
+        "display_shelf": "3",
+        "cups_per_serving": "-1",
+        "protein": "3",
+        "complex_carbohydrates": "8",
+        "type": "cold",
+        "slug": "100-natural-bran",
         "manufacturer": {
             "name": "Quaker Oats"
         }
-    }, 
+    },
     "crispy-wheat-raisins": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Crispy Wheat & Raisins", 
-        "sodium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "120", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "10", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "crispy-wheat-raisins", 
+        "serving_weight": "1",
+        "name": "Crispy Wheat & Raisins",
+        "sodium": "140",
+        "vitamins_minerals": "25",
+        "potassium": "120",
+        "sugars": "10",
+        "calories": "100",
+        "fat": "1",
+        "dietary_fiber": "2",
+        "display_shelf": "3",
+        "cups_per_serving": "0.75",
+        "protein": "2",
+        "complex_carbohydrates": "11",
+        "type": "cold",
+        "slug": "crispy-wheat-raisins",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "nutri-grain-wheat": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Nutri-grain Wheat", 
-        "sodium": {
-            "amount": "170", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "90", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "90", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "18", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "nutri-grain-wheat", 
+        "serving_weight": "1",
+        "name": "Nutri-grain Wheat",
+        "sodium": "170",
+        "vitamins_minerals": "25",
+        "potassium": "90",
+        "sugars": "2",
+        "calories": "90",
+        "fat": "0",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "-1",
+        "protein": "3",
+        "complex_carbohydrates": "18",
+        "type": "cold",
+        "slug": "nutri-grain-wheat",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "bran-chex": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Bran Chex", 
-        "sodium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "125", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "90", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "bran-chex", 
+        "serving_weight": "1",
+        "name": "Bran Chex",
+        "sodium": "200",
+        "vitamins_minerals": "25",
+        "potassium": "125",
+        "sugars": "6",
+        "calories": "90",
+        "fat": "1",
+        "dietary_fiber": "4",
+        "display_shelf": "1",
+        "cups_per_serving": "0.67",
+        "protein": "2",
+        "complex_carbohydrates": "15",
+        "type": "cold",
+        "slug": "bran-chex",
         "manufacturer": {
             "name": "Ralston Purina"
         }
-    }, 
+    },
     "raisin-bran": {
-        "serving_weight": {
-            "amount": "1.33", 
-            "unit": "ounces"
-        }, 
-        "name": "Raisin Bran", 
-        "sodium": {
-            "amount": "210", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "240", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "raisin-bran", 
+        "serving_weight": "1.33",
+        "name": "Raisin Bran",
+        "sodium": "210",
+        "vitamins_minerals": "25",
+        "potassium": "240",
+        "sugars": "12",
+        "calories": "120",
+        "fat": "1",
+        "dietary_fiber": "5",
+        "display_shelf": "2",
+        "cups_per_serving": "0.75",
+        "protein": "3",
+        "complex_carbohydrates": "14",
+        "type": "cold",
+        "slug": "raisin-bran",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "special-k": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Special K", 
-        "sodium": {
-            "amount": "230", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "55", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "16", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "special-k", 
+        "serving_weight": "1",
+        "name": "Special K",
+        "sodium": "230",
+        "vitamins_minerals": "25",
+        "potassium": "55",
+        "sugars": "3",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "1",
+        "cups_per_serving": "1",
+        "protein": "6",
+        "complex_carbohydrates": "16",
+        "type": "cold",
+        "slug": "special-k",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "product-19": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Product 19", 
-        "sodium": {
-            "amount": "320", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "100", 
-        "potassium": {
-            "amount": "45", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "20", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "product-19", 
+        "serving_weight": "1",
+        "name": "Product 19",
+        "sodium": "320",
+        "vitamins_minerals": "100",
+        "potassium": "45",
+        "sugars": "3",
+        "calories": "100",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "3",
+        "cups_per_serving": "1",
+        "protein": "3",
+        "complex_carbohydrates": "20",
+        "type": "cold",
+        "slug": "product-19",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "100-bran": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "100% Bran", 
-        "sodium": {
-            "amount": "130", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "280", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "70", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "10", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.33", 
-        "protein": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "100-bran", 
+        "serving_weight": "1",
+        "name": "100% Bran",
+        "sodium": "130",
+        "vitamins_minerals": "25",
+        "potassium": "280",
+        "sugars": "6",
+        "calories": "70",
+        "fat": "1",
+        "dietary_fiber": "10",
+        "display_shelf": "3",
+        "cups_per_serving": "0.33",
+        "protein": "4",
+        "complex_carbohydrates": "5",
+        "type": "cold",
+        "slug": "100-bran",
         "manufacturer": {
             "name": "Nabisco"
         }
-    }, 
+    },
     "wheaties-honey-gold": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Wheaties Honey Gold", 
-        "sodium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "60", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "8", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "16", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "wheaties-honey-gold", 
+        "serving_weight": "1",
+        "name": "Wheaties Honey Gold",
+        "sodium": "200",
+        "vitamins_minerals": "25",
+        "potassium": "60",
+        "sugars": "8",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "1",
+        "display_shelf": "1",
+        "cups_per_serving": "0.75",
+        "protein": "2",
+        "complex_carbohydrates": "16",
+        "type": "cold",
+        "slug": "wheaties-honey-gold",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "trix": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Trix", 
-        "sodium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "25", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "trix", 
+        "serving_weight": "1",
+        "name": "Trix",
+        "sodium": "140",
+        "vitamins_minerals": "25",
+        "potassium": "25",
+        "sugars": "12",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "1",
+        "complex_carbohydrates": "13",
+        "type": "cold",
+        "slug": "trix",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "just-right-crunchy-nuggets": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Just Right Crunchy  Nuggets", 
-        "sodium": {
-            "amount": "170", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "100", 
-        "potassium": {
-            "amount": "60", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "17", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "just-right-crunchy-nuggets", 
+        "serving_weight": "1",
+        "name": "Just Right Crunchy  Nuggets",
+        "sodium": "170",
+        "vitamins_minerals": "100",
+        "potassium": "60",
+        "sugars": "6",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "1",
+        "display_shelf": "3",
+        "cups_per_serving": "-1",
+        "protein": "2",
+        "complex_carbohydrates": "17",
+        "type": "cold",
+        "slug": "just-right-crunchy-nuggets",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "almond-delight": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Almond Delight", 
-        "sodium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "-1", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "8", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "almond-delight", 
+        "serving_weight": "1",
+        "name": "Almond Delight",
+        "sodium": "200",
+        "vitamins_minerals": "25",
+        "potassium": "-1",
+        "sugars": "8",
+        "calories": "110",
+        "fat": "2",
+        "dietary_fiber": "1",
+        "display_shelf": "3",
+        "cups_per_serving": "0.75",
+        "protein": "2",
+        "complex_carbohydrates": "14",
+        "type": "cold",
+        "slug": "almond-delight",
         "manufacturer": {
             "name": "Ralston Purina"
         }
-    }, 
+    },
     "apple-cinnamon-cheerios": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Apple Cinnamon Cheerios", 
-        "sodium": {
-            "amount": "180", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "70", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "10", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1.5", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "10.5", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "apple-cinnamon-cheerios", 
+        "serving_weight": "1",
+        "name": "Apple Cinnamon Cheerios",
+        "sodium": "180",
+        "vitamins_minerals": "25",
+        "potassium": "70",
+        "sugars": "10",
+        "calories": "110",
+        "fat": "2",
+        "dietary_fiber": "1.5",
+        "display_shelf": "1",
+        "cups_per_serving": "0.75",
+        "protein": "2",
+        "complex_carbohydrates": "10.5",
+        "type": "cold",
+        "slug": "apple-cinnamon-cheerios",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "shredded-wheat-nbran": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Shredded Wheat 'n'Bran", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "0", 
-        "potassium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "90", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "19", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "shredded-wheat-nbran", 
+        "serving_weight": "1",
+        "name": "Shredded Wheat 'n'Bran",
+        "sodium": "0",
+        "vitamins_minerals": "0",
+        "potassium": "140",
+        "sugars": "0",
+        "calories": "90",
+        "fat": "0",
+        "dietary_fiber": "4",
+        "display_shelf": "1",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "19",
+        "type": "cold",
+        "slug": "shredded-wheat-nbran",
         "manufacturer": {
             "name": "Nabisco"
         }
-    }, 
+    },
     "cheerios": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Cheerios", 
-        "sodium": {
-            "amount": "290", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "105", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1.25", 
-        "protein": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "17", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "cheerios", 
+        "serving_weight": "1",
+        "name": "Cheerios",
+        "sodium": "290",
+        "vitamins_minerals": "25",
+        "potassium": "105",
+        "sugars": "1",
+        "calories": "110",
+        "fat": "2",
+        "dietary_fiber": "2",
+        "display_shelf": "1",
+        "cups_per_serving": "1.25",
+        "protein": "6",
+        "complex_carbohydrates": "17",
+        "type": "cold",
+        "slug": "cheerios",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "great-grains-pecan": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Great Grains Pecan", 
-        "sodium": {
-            "amount": "75", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "100", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.33", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "great-grains-pecan", 
+        "serving_weight": "1",
+        "name": "Great Grains Pecan",
+        "sodium": "75",
+        "vitamins_minerals": "25",
+        "potassium": "100",
+        "sugars": "4",
+        "calories": "120",
+        "fat": "3",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "0.33",
+        "protein": "3",
+        "complex_carbohydrates": "13",
+        "type": "cold",
+        "slug": "great-grains-pecan",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "muesli-raisins-dates-almonds": {
-        "serving_weight": {
-            "amount": "-1", 
-            "unit": "ounces"
-        }, 
-        "name": "Muesli Raisins, Dates, & Almonds", 
-        "sodium": {
-            "amount": "95", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "170", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "150", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "16", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "muesli-raisins-dates-almonds", 
+        "serving_weight": "-1",
+        "name": "Muesli Raisins, Dates, & Almonds",
+        "sodium": "95",
+        "vitamins_minerals": "25",
+        "potassium": "170",
+        "sugars": "11",
+        "calories": "150",
+        "fat": "3",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "-1",
+        "protein": "4",
+        "complex_carbohydrates": "16",
+        "type": "cold",
+        "slug": "muesli-raisins-dates-almonds",
         "manufacturer": {
             "name": "Ralston Purina"
         }
-    }, 
+    },
     "bran-flakes": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Bran Flakes", 
-        "sodium": {
-            "amount": "210", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "190", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "90", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "bran-flakes", 
+        "serving_weight": "1",
+        "name": "Bran Flakes",
+        "sodium": "210",
+        "vitamins_minerals": "25",
+        "potassium": "190",
+        "sugars": "5",
+        "calories": "90",
+        "fat": "0",
+        "dietary_fiber": "5",
+        "display_shelf": "3",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "13",
+        "type": "cold",
+        "slug": "bran-flakes",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "double-chex": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Double Chex", 
-        "sodium": {
-            "amount": "190", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "80", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "18", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "double-chex", 
+        "serving_weight": "1",
+        "name": "Double Chex",
+        "sodium": "190",
+        "vitamins_minerals": "25",
+        "potassium": "80",
+        "sugars": "5",
+        "calories": "100",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "3",
+        "cups_per_serving": "0.75",
+        "protein": "2",
+        "complex_carbohydrates": "18",
+        "type": "cold",
+        "slug": "double-chex",
         "manufacturer": {
             "name": "Ralston Purina"
         }
-    }, 
+    },
     "wheat-chex": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Wheat Chex", 
-        "sodium": {
-            "amount": "230", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "115", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "17", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "wheat-chex", 
+        "serving_weight": "1",
+        "name": "Wheat Chex",
+        "sodium": "230",
+        "vitamins_minerals": "25",
+        "potassium": "115",
+        "sugars": "3",
+        "calories": "100",
+        "fat": "1",
+        "dietary_fiber": "3",
+        "display_shelf": "1",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "17",
+        "type": "cold",
+        "slug": "wheat-chex",
         "manufacturer": {
             "name": "Ralston Purina"
         }
-    }, 
+    },
     "cracklin-oat-bran": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Cracklin' Oat Bran", 
-        "sodium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "160", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "7", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.5", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "10", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "cracklin-oat-bran", 
+        "serving_weight": "1",
+        "name": "Cracklin' Oat Bran",
+        "sodium": "140",
+        "vitamins_minerals": "25",
+        "potassium": "160",
+        "sugars": "7",
+        "calories": "110",
+        "fat": "3",
+        "dietary_fiber": "4",
+        "display_shelf": "3",
+        "cups_per_serving": "0.5",
+        "protein": "3",
+        "complex_carbohydrates": "10",
+        "type": "cold",
+        "slug": "cracklin-oat-bran",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "corn-pops": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Corn Pops", 
-        "sodium": {
-            "amount": "90", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "20", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "corn-pops", 
+        "serving_weight": "1",
+        "name": "Corn Pops",
+        "sodium": "90",
+        "vitamins_minerals": "25",
+        "potassium": "20",
+        "sugars": "12",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "1",
+        "complex_carbohydrates": "13",
+        "type": "cold",
+        "slug": "corn-pops",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "puffed-rice": {
-        "serving_weight": {
-            "amount": "0.5", 
-            "unit": "ounces"
-        }, 
-        "name": "Puffed Rice", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "0", 
-        "potassium": {
-            "amount": "15", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "50", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "puffed-rice", 
+        "serving_weight": "0.5",
+        "name": "Puffed Rice",
+        "sodium": "0",
+        "vitamins_minerals": "0",
+        "potassium": "15",
+        "sugars": "0",
+        "calories": "50",
+        "fat": "0",
+        "dietary_fiber": "0",
+        "display_shelf": "3",
+        "cups_per_serving": "1",
+        "protein": "1",
+        "complex_carbohydrates": "13",
+        "type": "cold",
+        "slug": "puffed-rice",
         "manufacturer": {
             "name": "Quaker Oats"
         }
-    }, 
+    },
     "honey-nut-cheerios": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Honey Nut Cheerios", 
-        "sodium": {
-            "amount": "250", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "90", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "10", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1.5", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "11.5", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "honey-nut-cheerios", 
+        "serving_weight": "1",
+        "name": "Honey Nut Cheerios",
+        "sodium": "250",
+        "vitamins_minerals": "25",
+        "potassium": "90",
+        "sugars": "10",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "1.5",
+        "display_shelf": "1",
+        "cups_per_serving": "0.75",
+        "protein": "3",
+        "complex_carbohydrates": "11.5",
+        "type": "cold",
+        "slug": "honey-nut-cheerios",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "rice-chex": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Rice Chex", 
-        "sodium": {
-            "amount": "240", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "30", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1.13", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "23", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "rice-chex", 
+        "serving_weight": "1",
+        "name": "Rice Chex",
+        "sodium": "240",
+        "vitamins_minerals": "25",
+        "potassium": "30",
+        "sugars": "2",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "0",
+        "display_shelf": "1",
+        "cups_per_serving": "1.13",
+        "protein": "1",
+        "complex_carbohydrates": "23",
+        "type": "cold",
+        "slug": "rice-chex",
         "manufacturer": {
             "name": "Ralston Purina"
         }
-    }, 
+    },
     "apple-jacks": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Apple Jacks", 
-        "sodium": {
-            "amount": "125", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "30", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "apple-jacks", 
+        "serving_weight": "1",
+        "name": "Apple Jacks",
+        "sodium": "125",
+        "vitamins_minerals": "25",
+        "potassium": "30",
+        "sugars": "14",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "11",
+        "type": "cold",
+        "slug": "apple-jacks",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "fruity-pebbles": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Fruity Pebbles", 
-        "sodium": {
-            "amount": "135", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "25", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "fruity-pebbles", 
+        "serving_weight": "1",
+        "name": "Fruity Pebbles",
+        "sodium": "135",
+        "vitamins_minerals": "25",
+        "potassium": "25",
+        "sugars": "12",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "0.75",
+        "protein": "1",
+        "complex_carbohydrates": "13",
+        "type": "cold",
+        "slug": "fruity-pebbles",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "oatmeal-raisin-crisp": {
-        "serving_weight": {
-            "amount": "1.25", 
-            "unit": "ounces"
-        }, 
-        "name": "Oatmeal Raisin Crisp", 
-        "sodium": {
-            "amount": "170", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "120", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "10", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "130", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1.5", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.5", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13.5", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "oatmeal-raisin-crisp", 
+        "serving_weight": "1.25",
+        "name": "Oatmeal Raisin Crisp",
+        "sodium": "170",
+        "vitamins_minerals": "25",
+        "potassium": "120",
+        "sugars": "10",
+        "calories": "130",
+        "fat": "2",
+        "dietary_fiber": "1.5",
+        "display_shelf": "3",
+        "cups_per_serving": "0.5",
+        "protein": "3",
+        "complex_carbohydrates": "13.5",
+        "type": "cold",
+        "slug": "oatmeal-raisin-crisp",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "froot-loops": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Froot Loops", 
-        "sodium": {
-            "amount": "125", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "30", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "froot-loops", 
+        "serving_weight": "1",
+        "name": "Froot Loops",
+        "sodium": "125",
+        "vitamins_minerals": "25",
+        "potassium": "30",
+        "sugars": "13",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "1",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "11",
+        "type": "cold",
+        "slug": "froot-loops",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "clusters": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Clusters", 
-        "sodium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "105", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "7", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.5", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "clusters", 
+        "serving_weight": "1",
+        "name": "Clusters",
+        "sodium": "140",
+        "vitamins_minerals": "25",
+        "potassium": "105",
+        "sugars": "7",
+        "calories": "110",
+        "fat": "2",
+        "dietary_fiber": "2",
+        "display_shelf": "3",
+        "cups_per_serving": "0.5",
+        "protein": "3",
+        "complex_carbohydrates": "13",
+        "type": "cold",
+        "slug": "clusters",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "corn-flakes": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Corn Flakes", 
-        "sodium": {
-            "amount": "290", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "35", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "21", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "corn-flakes", 
+        "serving_weight": "1",
+        "name": "Corn Flakes",
+        "sodium": "290",
+        "vitamins_minerals": "25",
+        "potassium": "35",
+        "sugars": "2",
+        "calories": "100",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "1",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "21",
+        "type": "cold",
+        "slug": "corn-flakes",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "multi-grain-cheerios": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Multi-Grain Cheerios", 
-        "sodium": {
-            "amount": "220", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "90", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "multi-grain-cheerios", 
+        "serving_weight": "1",
+        "name": "Multi-Grain Cheerios",
+        "sodium": "220",
+        "vitamins_minerals": "25",
+        "potassium": "90",
+        "sugars": "6",
+        "calories": "100",
+        "fat": "1",
+        "dietary_fiber": "2",
+        "display_shelf": "1",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "15",
+        "type": "cold",
+        "slug": "multi-grain-cheerios",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "life": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Life", 
-        "sodium": {
-            "amount": "150", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "95", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "life", 
+        "serving_weight": "1",
+        "name": "Life",
+        "sodium": "150",
+        "vitamins_minerals": "25",
+        "potassium": "95",
+        "sugars": "6",
+        "calories": "100",
+        "fat": "2",
+        "dietary_fiber": "2",
+        "display_shelf": "2",
+        "cups_per_serving": "0.67",
+        "protein": "4",
+        "complex_carbohydrates": "12",
+        "type": "cold",
+        "slug": "life",
         "manufacturer": {
             "name": "Quaker Oats"
         }
-    }, 
+    },
     "honey-comb": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Honey-comb", 
-        "sodium": {
-            "amount": "180", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "35", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1.33", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "honey-comb", 
+        "serving_weight": "1",
+        "name": "Honey-comb",
+        "sodium": "180",
+        "vitamins_minerals": "25",
+        "potassium": "35",
+        "sugars": "11",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "0",
+        "display_shelf": "1",
+        "cups_per_serving": "1.33",
+        "protein": "1",
+        "complex_carbohydrates": "14",
+        "type": "cold",
+        "slug": "honey-comb",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "corn-chex": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Corn Chex", 
-        "sodium": {
-            "amount": "280", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "25", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "22", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "corn-chex", 
+        "serving_weight": "1",
+        "name": "Corn Chex",
+        "sodium": "280",
+        "vitamins_minerals": "25",
+        "potassium": "25",
+        "sugars": "3",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "0",
+        "display_shelf": "1",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "22",
+        "type": "cold",
+        "slug": "corn-chex",
         "manufacturer": {
             "name": "Ralston Purina"
         }
-    }, 
+    },
     "total-raisin-bran": {
-        "serving_weight": {
-            "amount": "1.5", 
-            "unit": "ounces"
-        }, 
-        "name": "Total Raisin Bran", 
-        "sodium": {
-            "amount": "190", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "100", 
-        "potassium": {
-            "amount": "230", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "140", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "total-raisin-bran", 
+        "serving_weight": "1.5",
+        "name": "Total Raisin Bran",
+        "sodium": "190",
+        "vitamins_minerals": "100",
+        "potassium": "230",
+        "sugars": "14",
+        "calories": "140",
+        "fat": "1",
+        "dietary_fiber": "4",
+        "display_shelf": "3",
+        "cups_per_serving": "1",
+        "protein": "3",
+        "complex_carbohydrates": "15",
+        "type": "cold",
+        "slug": "total-raisin-bran",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "basic-4": {
-        "serving_weight": {
-            "amount": "1.33", 
-            "unit": "ounces"
-        }, 
-        "name": "Basic 4", 
-        "sodium": {
-            "amount": "210", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "100", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "8", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "130", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "18", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "basic-4", 
+        "serving_weight": "1.33",
+        "name": "Basic 4",
+        "sodium": "210",
+        "vitamins_minerals": "25",
+        "potassium": "100",
+        "sugars": "8",
+        "calories": "130",
+        "fat": "2",
+        "dietary_fiber": "2",
+        "display_shelf": "3",
+        "cups_per_serving": "0.75",
+        "protein": "3",
+        "complex_carbohydrates": "18",
+        "type": "cold",
+        "slug": "basic-4",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "kix": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Kix", 
-        "sodium": {
-            "amount": "260", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "40", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1.5", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "21", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "kix", 
+        "serving_weight": "1",
+        "name": "Kix",
+        "sodium": "260",
+        "vitamins_minerals": "25",
+        "potassium": "40",
+        "sugars": "3",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "1.5",
+        "protein": "2",
+        "complex_carbohydrates": "21",
+        "type": "cold",
+        "slug": "kix",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "triples": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Triples", 
-        "sodium": {
-            "amount": "250", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "60", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "21", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "triples", 
+        "serving_weight": "1",
+        "name": "Triples",
+        "sodium": "250",
+        "vitamins_minerals": "25",
+        "potassium": "60",
+        "sugars": "3",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "3",
+        "cups_per_serving": "0.75",
+        "protein": "2",
+        "complex_carbohydrates": "21",
+        "type": "cold",
+        "slug": "triples",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "post-nat-raisin-bran": {
-        "serving_weight": {
-            "amount": "1.33", 
-            "unit": "ounces"
-        }, 
-        "name": "Post Nat. Raisin Bran", 
-        "sodium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "260", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "post-nat-raisin-bran", 
+        "serving_weight": "1.33",
+        "name": "Post Nat. Raisin Bran",
+        "sodium": "200",
+        "vitamins_minerals": "25",
+        "potassium": "260",
+        "sugars": "14",
+        "calories": "120",
+        "fat": "1",
+        "dietary_fiber": "6",
+        "display_shelf": "3",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "11",
+        "type": "cold",
+        "slug": "post-nat-raisin-bran",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "cinnamon-toast-crunch": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Cinnamon Toast Crunch", 
-        "sodium": {
-            "amount": "210", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "45", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "9", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "cinnamon-toast-crunch", 
+        "serving_weight": "1",
+        "name": "Cinnamon Toast Crunch",
+        "sodium": "210",
+        "vitamins_minerals": "25",
+        "potassium": "45",
+        "sugars": "9",
+        "calories": "120",
+        "fat": "3",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "0.75",
+        "protein": "1",
+        "complex_carbohydrates": "13",
+        "type": "cold",
+        "slug": "cinnamon-toast-crunch",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "rice-krispies": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Rice Krispies", 
-        "sodium": {
-            "amount": "290", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "35", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "22", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "rice-krispies", 
+        "serving_weight": "1",
+        "name": "Rice Krispies",
+        "sodium": "290",
+        "vitamins_minerals": "25",
+        "potassium": "35",
+        "sugars": "3",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "0",
+        "display_shelf": "1",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "22",
+        "type": "cold",
+        "slug": "rice-krispies",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "smacks": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Smacks", 
-        "sodium": {
-            "amount": "70", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "40", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "9", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "smacks", 
+        "serving_weight": "1",
+        "name": "Smacks",
+        "sodium": "70",
+        "vitamins_minerals": "25",
+        "potassium": "40",
+        "sugars": "15",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "1",
+        "display_shelf": "2",
+        "cups_per_serving": "0.75",
+        "protein": "2",
+        "complex_carbohydrates": "9",
+        "type": "cold",
+        "slug": "smacks",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "muesli-raisins-peaches-pecans": {
-        "serving_weight": {
-            "amount": "-1", 
-            "unit": "ounces"
-        }, 
-        "name": "Muesli Raisins, Peaches, & Pecans", 
-        "sodium": {
-            "amount": "150", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "170", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "150", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "16", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "muesli-raisins-peaches-pecans", 
+        "serving_weight": "-1",
+        "name": "Muesli Raisins, Peaches, & Pecans",
+        "sodium": "150",
+        "vitamins_minerals": "25",
+        "potassium": "170",
+        "sugars": "11",
+        "calories": "150",
+        "fat": "3",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "-1",
+        "protein": "4",
+        "complex_carbohydrates": "16",
+        "type": "cold",
+        "slug": "muesli-raisins-peaches-pecans",
         "manufacturer": {
             "name": "Ralston Purina"
         }
-    }, 
+    },
     "total-corn-flakes": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Total Corn Flakes", 
-        "sodium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "100", 
-        "potassium": {
-            "amount": "35", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "21", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "total-corn-flakes", 
+        "serving_weight": "1",
+        "name": "Total Corn Flakes",
+        "sodium": "200",
+        "vitamins_minerals": "100",
+        "potassium": "35",
+        "sugars": "3",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "3",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "21",
+        "type": "cold",
+        "slug": "total-corn-flakes",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "quaker-oat-squares": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Quaker Oat Squares", 
-        "sodium": {
-            "amount": "135", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "110", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.5", 
-        "protein": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "quaker-oat-squares", 
+        "serving_weight": "1",
+        "name": "Quaker Oat Squares",
+        "sodium": "135",
+        "vitamins_minerals": "25",
+        "potassium": "110",
+        "sugars": "6",
+        "calories": "100",
+        "fat": "1",
+        "dietary_fiber": "2",
+        "display_shelf": "3",
+        "cups_per_serving": "0.5",
+        "protein": "4",
+        "complex_carbohydrates": "14",
+        "type": "cold",
+        "slug": "quaker-oat-squares",
         "manufacturer": {
             "name": "Quaker Oats"
         }
-    }, 
+    },
     "just-right-fruit-nut": {
-        "serving_weight": {
-            "amount": "1.3", 
-            "unit": "ounces"
-        }, 
-        "name": "Just Right Fruit & Nut", 
-        "sodium": {
-            "amount": "170", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "100", 
-        "potassium": {
-            "amount": "95", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "9", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "140", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "20", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "just-right-fruit-nut", 
+        "serving_weight": "1.3",
+        "name": "Just Right Fruit & Nut",
+        "sodium": "170",
+        "vitamins_minerals": "100",
+        "potassium": "95",
+        "sugars": "9",
+        "calories": "140",
+        "fat": "1",
+        "dietary_fiber": "2",
+        "display_shelf": "3",
+        "cups_per_serving": "0.75",
+        "protein": "3",
+        "complex_carbohydrates": "20",
+        "type": "cold",
+        "slug": "just-right-fruit-nut",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "fruit-fibre-dates-walnuts-and-oats": {
-        "serving_weight": {
-            "amount": "1.25", 
-            "unit": "ounces"
-        }, 
-        "name": "Fruit & Fibre Dates, Walnuts, and Oats", 
-        "sodium": {
-            "amount": "160", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "10", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "fruit-fibre-dates-walnuts-and-oats", 
+        "serving_weight": "1.25",
+        "name": "Fruit & Fibre Dates, Walnuts, and Oats",
+        "sodium": "160",
+        "vitamins_minerals": "25",
+        "potassium": "200",
+        "sugars": "10",
+        "calories": "120",
+        "fat": "2",
+        "dietary_fiber": "5",
+        "display_shelf": "3",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "12",
+        "type": "cold",
+        "slug": "fruit-fibre-dates-walnuts-and-oats",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "raisin-nut-bran": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Raisin Nut Bran", 
-        "sodium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "8", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2.5", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.5", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "10.5", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "raisin-nut-bran", 
+        "serving_weight": "1",
+        "name": "Raisin Nut Bran",
+        "sodium": "140",
+        "vitamins_minerals": "25",
+        "potassium": "140",
+        "sugars": "8",
+        "calories": "100",
+        "fat": "2",
+        "dietary_fiber": "2.5",
+        "display_shelf": "3",
+        "cups_per_serving": "0.5",
+        "protein": "3",
+        "complex_carbohydrates": "10.5",
+        "type": "cold",
+        "slug": "raisin-nut-bran",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "puffed-wheat": {
-        "serving_weight": {
-            "amount": "0.5", 
-            "unit": "ounces"
-        }, 
-        "name": "Puffed Wheat", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "0", 
-        "potassium": {
-            "amount": "50", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "50", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "10", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "puffed-wheat", 
+        "serving_weight": "0.5",
+        "name": "Puffed Wheat",
+        "sodium": "0",
+        "vitamins_minerals": "0",
+        "potassium": "50",
+        "sugars": "0",
+        "calories": "50",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "3",
+        "cups_per_serving": "-1",
+        "protein": "2",
+        "complex_carbohydrates": "10",
+        "type": "cold",
+        "slug": "puffed-wheat",
         "manufacturer": {
             "name": "Quaker Oats"
         }
-    }, 
+    },
     "maypo": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Maypo", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "95", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "16", 
-            "unit": "grams"
-        }, 
-        "type": "hot", 
-        "slug": "maypo", 
+        "serving_weight": "1",
+        "name": "Maypo",
+        "sodium": "0",
+        "vitamins_minerals": "25",
+        "potassium": "95",
+        "sugars": "3",
+        "calories": "100",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "-1",
+        "protein": "4",
+        "complex_carbohydrates": "16",
+        "type": "hot",
+        "slug": "maypo",
         "manufacturer": {
             "name": "American Home Food Products"
         }
-    }, 
+    },
     "all-bran": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "All-Bran", 
-        "sodium": {
-            "amount": "260", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "320", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "70", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "9", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.33", 
-        "protein": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "7", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "all-bran", 
+        "serving_weight": "1",
+        "name": "All-Bran",
+        "sodium": "260",
+        "vitamins_minerals": "25",
+        "potassium": "320",
+        "sugars": "5",
+        "calories": "70",
+        "fat": "1",
+        "dietary_fiber": "9",
+        "display_shelf": "3",
+        "cups_per_serving": "0.33",
+        "protein": "4",
+        "complex_carbohydrates": "7",
+        "type": "cold",
+        "slug": "all-bran",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "shredded-wheat-spoon-size": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Shredded Wheat spoon size", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "0", 
-        "potassium": {
-            "amount": "120", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "90", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "20", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "shredded-wheat-spoon-size", 
+        "serving_weight": "1",
+        "name": "Shredded Wheat spoon size",
+        "sodium": "0",
+        "vitamins_minerals": "0",
+        "potassium": "120",
+        "sugars": "0",
+        "calories": "90",
+        "fat": "0",
+        "dietary_fiber": "3",
+        "display_shelf": "1",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "20",
+        "type": "cold",
+        "slug": "shredded-wheat-spoon-size",
         "manufacturer": {
             "name": "Nabisco"
         }
-    }, 
+    },
     "total-whole-grain": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Total Whole Grain", 
-        "sodium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "100", 
-        "potassium": {
-            "amount": "110", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "16", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "total-whole-grain", 
+        "serving_weight": "1",
+        "name": "Total Whole Grain",
+        "sodium": "200",
+        "vitamins_minerals": "100",
+        "potassium": "110",
+        "sugars": "3",
+        "calories": "100",
+        "fat": "1",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "1",
+        "protein": "3",
+        "complex_carbohydrates": "16",
+        "type": "cold",
+        "slug": "total-whole-grain",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "crispix": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Crispix", 
-        "sodium": {
-            "amount": "220", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "30", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "21", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "crispix", 
+        "serving_weight": "1",
+        "name": "Crispix",
+        "sodium": "220",
+        "vitamins_minerals": "25",
+        "potassium": "30",
+        "sugars": "3",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "3",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "21",
+        "type": "cold",
+        "slug": "crispix",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "count-chocula": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Count Chocula", 
-        "sodium": {
-            "amount": "180", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "65", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "count-chocula", 
+        "serving_weight": "1",
+        "name": "Count Chocula",
+        "sodium": "180",
+        "vitamins_minerals": "25",
+        "potassium": "65",
+        "sugars": "13",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "1",
+        "complex_carbohydrates": "12",
+        "type": "cold",
+        "slug": "count-chocula",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "frosted-mini-wheats": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Frosted Mini-Wheats", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "100", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "7", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.8", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "frosted-mini-wheats", 
+        "serving_weight": "1",
+        "name": "Frosted Mini-Wheats",
+        "sodium": "0",
+        "vitamins_minerals": "25",
+        "potassium": "100",
+        "sugars": "7",
+        "calories": "100",
+        "fat": "0",
+        "dietary_fiber": "3",
+        "display_shelf": "2",
+        "cups_per_serving": "0.8",
+        "protein": "3",
+        "complex_carbohydrates": "14",
+        "type": "cold",
+        "slug": "frosted-mini-wheats",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "grape-nuts": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Grape-Nuts", 
-        "sodium": {
-            "amount": "170", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "90", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.25", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "17", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "grape-nuts", 
+        "serving_weight": "1",
+        "name": "Grape-Nuts",
+        "sodium": "170",
+        "vitamins_minerals": "25",
+        "potassium": "90",
+        "sugars": "3",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "0.25",
+        "protein": "3",
+        "complex_carbohydrates": "17",
+        "type": "cold",
+        "slug": "grape-nuts",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "cocoa-puffs": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Cocoa Puffs", 
-        "sodium": {
-            "amount": "180", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "55", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "cocoa-puffs", 
+        "serving_weight": "1",
+        "name": "Cocoa Puffs",
+        "sodium": "180",
+        "vitamins_minerals": "25",
+        "potassium": "55",
+        "sugars": "13",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "1",
+        "complex_carbohydrates": "12",
+        "type": "cold",
+        "slug": "cocoa-puffs",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "capncrunch": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Cap'n'Crunch", 
-        "sodium": {
-            "amount": "220", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "35", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "capncrunch", 
+        "serving_weight": "1",
+        "name": "Cap'n'Crunch",
+        "sodium": "220",
+        "vitamins_minerals": "25",
+        "potassium": "35",
+        "sugars": "12",
+        "calories": "120",
+        "fat": "2",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "0.75",
+        "protein": "1",
+        "complex_carbohydrates": "12",
+        "type": "cold",
+        "slug": "capncrunch",
         "manufacturer": {
             "name": "Quaker Oats"
         }
-    }, 
+    },
     "raisin-squares": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Raisin Squares", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "110", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "6", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "90", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.5", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "raisin-squares", 
+        "serving_weight": "1",
+        "name": "Raisin Squares",
+        "sodium": "0",
+        "vitamins_minerals": "25",
+        "potassium": "110",
+        "sugars": "6",
+        "calories": "90",
+        "fat": "0",
+        "dietary_fiber": "2",
+        "display_shelf": "3",
+        "cups_per_serving": "0.5",
+        "protein": "2",
+        "complex_carbohydrates": "15",
+        "type": "cold",
+        "slug": "raisin-squares",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "shredded-wheat": {
-        "serving_weight": {
-            "amount": "0.83", 
-            "unit": "ounces"
-        }, 
-        "name": "Shredded Wheat", 
-        "sodium": {
-            "amount": "0", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "0", 
-        "potassium": {
-            "amount": "95", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "80", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "16", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "shredded-wheat", 
+        "serving_weight": "0.83",
+        "name": "Shredded Wheat",
+        "sodium": "0",
+        "vitamins_minerals": "0",
+        "potassium": "95",
+        "sugars": "0",
+        "calories": "80",
+        "fat": "0",
+        "dietary_fiber": "3",
+        "display_shelf": "1",
+        "cups_per_serving": "-1",
+        "protein": "2",
+        "complex_carbohydrates": "16",
+        "type": "cold",
+        "slug": "shredded-wheat",
         "manufacturer": {
             "name": "Nabisco"
         }
-    }, 
+    },
     "golden-grahams": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Golden Grahams", 
-        "sodium": {
-            "amount": "280", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "45", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "9", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "golden-grahams", 
+        "serving_weight": "1",
+        "name": "Golden Grahams",
+        "sodium": "280",
+        "vitamins_minerals": "25",
+        "potassium": "45",
+        "sugars": "9",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "0.75",
+        "protein": "1",
+        "complex_carbohydrates": "15",
+        "type": "cold",
+        "slug": "golden-grahams",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "fruitful-bran": {
-        "serving_weight": {
-            "amount": "1.33", 
-            "unit": "ounces"
-        }, 
-        "name": "Fruitful Bran", 
-        "sodium": {
-            "amount": "240", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "190", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "fruitful-bran", 
+        "serving_weight": "1.33",
+        "name": "Fruitful Bran",
+        "sodium": "240",
+        "vitamins_minerals": "25",
+        "potassium": "190",
+        "sugars": "12",
+        "calories": "120",
+        "fat": "0",
+        "dietary_fiber": "5",
+        "display_shelf": "3",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "14",
+        "type": "cold",
+        "slug": "fruitful-bran",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "nutri-grain-almond-raisin": {
-        "serving_weight": {
-            "amount": "1.33", 
-            "unit": "ounces"
-        }, 
-        "name": "Nutri-Grain Almond-Raisin", 
-        "sodium": {
-            "amount": "220", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "130", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "7", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "140", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "21", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "nutri-grain-almond-raisin", 
+        "serving_weight": "1.33",
+        "name": "Nutri-Grain Almond-Raisin",
+        "sodium": "220",
+        "vitamins_minerals": "25",
+        "potassium": "130",
+        "sugars": "7",
+        "calories": "140",
+        "fat": "2",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "21",
+        "type": "cold",
+        "slug": "nutri-grain-almond-raisin",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "all-bran-extra-fiber": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "All-Bran with Extra Fiber", 
-        "sodium": {
-            "amount": "140", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "330", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "50", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.5", 
-        "protein": {
-            "amount": "4", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "8", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "all-bran-extra-fiber", 
+        "serving_weight": "1",
+        "name": "All-Bran with Extra Fiber",
+        "sodium": "140",
+        "vitamins_minerals": "25",
+        "potassium": "330",
+        "sugars": "0",
+        "calories": "50",
+        "fat": "0",
+        "dietary_fiber": "14",
+        "display_shelf": "3",
+        "cups_per_serving": "0.5",
+        "protein": "4",
+        "complex_carbohydrates": "8",
+        "type": "cold",
+        "slug": "all-bran-extra-fiber",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "cream-of-wheat-quick": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Cream of Wheat (Quick)", 
-        "sodium": {
-            "amount": "80", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "0", 
-        "potassium": {
-            "amount": "-1", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "21", 
-            "unit": "grams"
-        }, 
-        "type": "hot", 
-        "slug": "cream-of-wheat-quick", 
+        "serving_weight": "1",
+        "name": "Cream of Wheat (Quick)",
+        "sodium": "80",
+        "vitamins_minerals": "0",
+        "potassium": "-1",
+        "sugars": "0",
+        "calories": "100",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "3",
+        "complex_carbohydrates": "21",
+        "type": "hot",
+        "slug": "cream-of-wheat-quick",
         "manufacturer": {
             "name": "Nabisco"
         }
-    }, 
+    },
     "golden-crisp": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Golden Crisp", 
-        "sodium": {
-            "amount": "45", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "40", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "100", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.88", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "golden-crisp", 
+        "serving_weight": "1",
+        "name": "Golden Crisp",
+        "sodium": "45",
+        "vitamins_minerals": "25",
+        "potassium": "40",
+        "sugars": "15",
+        "calories": "100",
+        "fat": "0",
+        "dietary_fiber": "0",
+        "display_shelf": "1",
+        "cups_per_serving": "0.88",
+        "protein": "2",
+        "complex_carbohydrates": "11",
+        "type": "cold",
+        "slug": "golden-crisp",
         "manufacturer": {
             "name": "Post"
         }
-    }, 
+    },
     "mueslix-crispy-blend": {
-        "serving_weight": {
-            "amount": "1.5", 
-            "unit": "ounces"
-        }, 
-        "name": "Mueslix Crispy Blend", 
-        "sodium": {
-            "amount": "150", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "160", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "13", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "160", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "3", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "17", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "mueslix-crispy-blend", 
+        "serving_weight": "1.5",
+        "name": "Mueslix Crispy Blend",
+        "sodium": "150",
+        "vitamins_minerals": "25",
+        "potassium": "160",
+        "sugars": "13",
+        "calories": "160",
+        "fat": "2",
+        "dietary_fiber": "3",
+        "display_shelf": "3",
+        "cups_per_serving": "0.67",
+        "protein": "3",
+        "complex_carbohydrates": "17",
+        "type": "cold",
+        "slug": "mueslix-crispy-blend",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "lucky-charms": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Lucky Charms", 
-        "sodium": {
-            "amount": "180", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "55", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "lucky-charms", 
+        "serving_weight": "1",
+        "name": "Lucky Charms",
+        "sodium": "180",
+        "vitamins_minerals": "25",
+        "potassium": "55",
+        "sugars": "12",
+        "calories": "110",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "2",
+        "complex_carbohydrates": "12",
+        "type": "cold",
+        "slug": "lucky-charms",
         "manufacturer": {
             "name": "General Mills"
         }
-    }, 
+    },
     "strawberry-fruit-wheats": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Strawberry Fruit Wheats", 
-        "sodium": {
-            "amount": "15", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "90", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "5", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "90", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "3", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "-1", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "strawberry-fruit-wheats", 
+        "serving_weight": "1",
+        "name": "Strawberry Fruit Wheats",
+        "sodium": "15",
+        "vitamins_minerals": "25",
+        "potassium": "90",
+        "sugars": "5",
+        "calories": "90",
+        "fat": "0",
+        "dietary_fiber": "3",
+        "display_shelf": "2",
+        "cups_per_serving": "-1",
+        "protein": "2",
+        "complex_carbohydrates": "15",
+        "type": "cold",
+        "slug": "strawberry-fruit-wheats",
         "manufacturer": {
             "name": "Nabisco"
         }
-    }, 
+    },
     "nuthoney-crunch": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Nut&Honey Crunch", 
-        "sodium": {
-            "amount": "190", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "40", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "9", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "0.67", 
-        "protein": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "15", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "nuthoney-crunch", 
+        "serving_weight": "1",
+        "name": "Nut&Honey Crunch",
+        "sodium": "190",
+        "vitamins_minerals": "25",
+        "potassium": "40",
+        "sugars": "9",
+        "calories": "120",
+        "fat": "1",
+        "dietary_fiber": "0",
+        "display_shelf": "2",
+        "cups_per_serving": "0.67",
+        "protein": "2",
+        "complex_carbohydrates": "15",
+        "type": "cold",
+        "slug": "nuthoney-crunch",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "frosted-flakes": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Frosted Flakes", 
-        "sodium": {
-            "amount": "200", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "25", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "110", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "0", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "1", 
-        "cups_per_serving": "0.75", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "14", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "frosted-flakes", 
+        "serving_weight": "1",
+        "name": "Frosted Flakes",
+        "sodium": "200",
+        "vitamins_minerals": "25",
+        "potassium": "25",
+        "sugars": "11",
+        "calories": "110",
+        "fat": "0",
+        "dietary_fiber": "1",
+        "display_shelf": "1",
+        "cups_per_serving": "0.75",
+        "protein": "1",
+        "complex_carbohydrates": "14",
+        "type": "cold",
+        "slug": "frosted-flakes",
         "manufacturer": {
             "name": "Kellogs"
         }
-    }, 
+    },
     "honey-graham-ohs": {
-        "serving_weight": {
-            "amount": "1", 
-            "unit": "ounces"
-        }, 
-        "name": "Honey Graham Ohs", 
-        "sodium": {
-            "amount": "220", 
-            "unit": "milligrams"
-        }, 
-        "vitamins_minerals": "25", 
-        "potassium": {
-            "amount": "45", 
-            "unit": "milligrams"
-        }, 
-        "sugars": {
-            "amount": "11", 
-            "unit": "grams"
-        }, 
-        "calories": {
-            "amount": "120", 
-            "unit": "grams"
-        }, 
-        "fat": {
-            "amount": "2", 
-            "unit": "grams"
-        }, 
-        "dietary_fiber": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "display_shelf": "2", 
-        "cups_per_serving": "1", 
-        "protein": {
-            "amount": "1", 
-            "unit": "grams"
-        }, 
-        "complex_carbohydrates": {
-            "amount": "12", 
-            "unit": "grams"
-        }, 
-        "type": "cold", 
-        "slug": "honey-graham-ohs", 
+        "serving_weight": "1",
+        "name": "Honey Graham Ohs",
+        "sodium": "220",
+        "vitamins_minerals": "25",
+        "potassium": "45",
+        "sugars": "11",
+        "calories": "120",
+        "fat": "2",
+        "dietary_fiber": "1",
+        "display_shelf": "2",
+        "cups_per_serving": "1",
+        "protein": "1",
+        "complex_carbohydrates": "12",
+        "type": "cold",
+        "slug": "honey-graham-ohs",
         "manufacturer": {
             "name": "Quaker Oats"
         }

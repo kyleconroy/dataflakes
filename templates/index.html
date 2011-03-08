@@ -2,6 +2,48 @@
 
 {% block content %}
 
-Index
+<h1>Useless Figure</h1>
+
+<div id="fig">
+ <script type="text/javascript+protovis">
+var data = {{ data }};
+
+/* Sizing and scales. */
+var w = 500,
+    h = 1000,
+    x = pv.Scale.linear(0, 15).range(0, w);
+
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+    .left(150);
+
+var bar = vis.add(pv.Bar)
+    .data(data)
+    .height(20)
+    .bottom(function() this.index * 25)
+    .width(function(d) x(d.x))
+    .left(0);
+
+bar.anchor("left").add(pv.Label)
+    .textAlign("right")
+    .textMargin(5)
+    .text(function() data[this.index].name )
+    .fillStyle("black");
+
+vis.add(pv.Rule)
+    .data(x.ticks(5))
+    .left(x)
+    .strokeStyle("#000")
+  .add(pv.Rule)
+    .top(0)
+    .height(5)
+    .strokeStyle("#000")
+  .anchor("top").add(pv.Label)
+    .text(x.tickFormat);
+
+vis.render();
+ </script>
+</div>
 
 {% end %}

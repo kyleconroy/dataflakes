@@ -120,3 +120,33 @@ header nav ul li a:hover{ color: #FFFFFF }
 
 section h1 { font-size: 2em; margin-bottom: 1em}
 section p { margin-bottom: 1em; line-height: 16pt;}
+
+#cereals ul {
+  list-style: square;
+}
+
+#cereals li {
+  list-style-type: square;
+  display: inline-block;
+  vertical-align: top;
+  width: 226px;
+  margin: 0 10px 10px 0;
+}
+
+#cereals li:nth-child(3n) {
+  margin: 0 0 10px 0;
+}
+
+
+#cereals a{
+  font-size: .75em;
+  display: block;
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  border: solid black 1px;
+}
+
+#cereals a:hover{
+  background: #DEDEDE;
+}
