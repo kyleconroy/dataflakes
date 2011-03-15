@@ -18,6 +18,26 @@ def main():
         "sugars",
         "potassium",
         ]
+
+    count = [
+        "calories",
+        "count",
+        ]
+
+
+    mgrams = [
+        "sodium",
+        "potassium",
+        ]
+
+    grams = [
+        "protein",
+        "fat",
+        "dietary_fiber",
+        "complex_carbohydrates",
+        "sugars",
+        ]
+
     results = dict((c, [0, 0, 0]) for c in categories)
 
     # Count it up
@@ -36,9 +56,34 @@ def main():
                 results[k][i] = v[i] / results["count"][i]
 
 
-    results = [ v for v in results.itervalues() ]
+    output = {
+        "grams":{
+            "data":[],
+            "yaxis":[],
+            },
+        "mgrams":{
+            "data":[],
+            "yaxis":[],
+            },
+        "count":{
+            "data":[],
+            "yaxis":[],
+            },
+        }
 
-    print json.dumps(results)
+    for k, v in results.iteritems():
+        title = k.replace("_", " ").title()
+        if k in grams:
+            o = output["grams"]
+        elif k in mgrams:
+            o = output["mgrams"]
+        else:
+            o = output["count"]
+        o["data"].append(v)
+        o["yaxis"].append(title)
+
+
+    print json.dumps(output, indent=4)
 
 if __name__ == "__main__":
     main()

@@ -3,17 +3,29 @@
 {% block content %}
 
 <section>
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.
+  </p>
+<section>
+
+<section>
 
 <h1>Don't be Shelfish</h1>
 
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.
+</p>
+
 <figure>
- <script type="text/javascript+protovis">
+  <script type="text/javascript+protovis">
+var shelf_data = {{shelfs}};
+
 /* Sizing and scales. */
 var w = 500,
-    h = 750,
-    n = 9,
+    h = 170,
+    n = 2,
     m = 3,
-    x = pv.Scale.linear(0, 250).range(0, w),
+    x = pv.Scale.linear(0, 200).range(0, w),
     y = pv.Scale.ordinal(pv.range(n)).splitBanded(0, h, 4/5);
 
 /* The root panel. */
@@ -21,13 +33,13 @@ var vis = new pv.Panel()
     .width(w)
     .height(h)
     .bottom(20)
-    .left(20)
+    .left(75)
     .right(10)
     .top(5);
 
 /* The bars. */
 var bar = vis.add(pv.Panel)
-    .data({{shelfs}})
+    .data(shelf_data.count.data)
     .top(function() y(this.index))
     .height(y.range().band)
   .add(pv.Bar)
@@ -47,7 +59,7 @@ bar.anchor("right").add(pv.Label)
 bar.parent.anchor("left").add(pv.Label)
     .textAlign("right")
     .textMargin(5)
-    .text(function() "ABCDEFGHIJK".charAt(this.parent.index));
+    .text(function() shelf_data.count.yaxis[this.parent.index]);
 
 /* X-axis ticks. */
 vis.add(pv.Rule)
@@ -61,15 +73,153 @@ vis.add(pv.Rule)
   .anchor("bottom").add(pv.Label)
     .text(x.tickFormat);
 
+
 vis.render();
  </script>
 </figure>
+
+<p>Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est</p>
+
+<figure>
+ <script type="text/javascript+protovis">
+/* Sizing and scales. */
+var w = 500,
+    h = 420,
+    n = 5,
+    m = 3,
+    x = pv.Scale.linear(0, 25).range(0, w),
+    y = pv.Scale.ordinal(pv.range(n)).splitBanded(0, h, 4/5);
+
+/* The root panel. */
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+    .bottom(40)
+    .left(75)
+    .right(10)
+    .top(5);
+
+/* The bars. */
+var bar = vis.add(pv.Panel)
+    .data(shelf_data.grams.data)
+    .top(function() y(this.index))
+    .height(y.range().band)
+  .add(pv.Bar)
+    .data(function(d) d)
+    .top(function() this.index * y.range().band / m)
+    .height(y.range().band / m)
+    .left(0)
+    .width(x)
+    .fillStyle(pv.Colors.category20().by(pv.index));
+
+/* The value label. */
+bar.anchor("right").add(pv.Label)
+    .textStyle("white")
+    .text(function(d) d.toFixed(1));
+
+/* The variable label. */
+bar.parent.anchor("left").add(pv.Label)
+    .textAlign("right")
+    .textMargin(5)
+    .text(function() shelf_data.grams.yaxis[this.parent.index]);
+
+/* X-axis ticks. */
+vis.add(pv.Rule)
+    .data(x.ticks(5))
+    .left(x)
+    .strokeStyle(function(d) d ? "rgba(255,255,255,.3)" : "#000")
+  .add(pv.Rule)
+    .bottom(0)
+    .height(5)
+    .strokeStyle("#000")
+  .anchor("bottom").add(pv.Label)
+    .text(x.tickFormat);
+
+vis.anchor("bottom").add(pv.Label)
+  .text("grams")
+  .top(h + 30);
+
+vis.render();
+ </script>
+</figure>
+
+<p>
+  Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet
+</p>
+
+<figure>
+ <script type="text/javascript+protovis">
+/* Sizing and scales. */
+var w = 500,
+    h = 170,
+    n = 2,
+    m = 3,
+    x = pv.Scale.linear(0, 250).range(0, w),
+    y = pv.Scale.ordinal(pv.range(n)).splitBanded(0, h, 4/5);
+
+/* The root panel. */
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+    .bottom(40)
+    .left(75)
+    .right(10)
+    .top(5);
+
+/* The bars. */
+var bar = vis.add(pv.Panel)
+    .data(shelf_data.mgrams.data)
+    .top(function() y(this.index))
+    .height(y.range().band)
+  .add(pv.Bar)
+    .data(function(d) d)
+    .top(function() this.index * y.range().band / m)
+    .height(y.range().band / m)
+    .left(0)
+    .width(x)
+    .fillStyle(pv.Colors.category20().by(pv.index));
+
+/* The value label. */
+bar.anchor("right").add(pv.Label)
+    .textStyle("white")
+    .text(function(d) d.toFixed(1));
+
+/* The variable label. */
+bar.parent.anchor("left").add(pv.Label)
+    .textAlign("right")
+    .textMargin(5)
+    .text(function() shelf_data.mgrams.yaxis[this.parent.index]);
+
+/* X-axis ticks. */
+vis.add(pv.Rule)
+    .data(x.ticks(5))
+    .left(x)
+    .strokeStyle(function(d) d ? "rgba(255,255,255,.3)" : "#000")
+  .add(pv.Rule)
+    .bottom(0)
+    .height(5)
+    .strokeStyle("#000")
+  .anchor("bottom").add(pv.Label)
+    .text(x.tickFormat);
+
+vis.anchor("bottom").add(pv.Label)
+  .text("milligrams")
+  .top(h + 30);
+
+vis.render();
+ </script>
+</figure>
+
 
 </section>
 
 <section>
 
-<h1>Title Match</h1>
+  <h1>Title Match</h1>
+
+  <p>
+  consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan.</p>
+
 
 <figure>
  <script type="text/javascript+protovis">
@@ -85,7 +235,7 @@ var vis = new pv.Panel()
     .width(w)
     .height(h)
     .bottom(20)
-    .left(20)
+    .left(75)
     .right(10)
     .top(5);
 
@@ -115,7 +265,7 @@ vis.add(pv.Panel)
     .bottom(function(d) y(d.y))
     .strokeStyle(function(d) c(d.z))
     .fillStyle(function() this.strokeStyle().alpha(.2))
-    .size(function(d) d.z)
+    .size(function(d) d.z * 20)
     .title(function(d) d.z.toFixed(1));
 
 vis.render();
