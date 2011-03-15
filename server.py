@@ -17,9 +17,12 @@ cereal_names = set(cereals.keys())
 class MainHandler(tornado.web.RequestHandler):
 
     def get(self):
+        scatter = open("static/data/names.json")
+        shelf = open("static/data/shelf.json")
         data = [ {"name": v["name"], "x": int(v["sugars"])}
                  for v in cereals.itervalues() ]
-        self.render("templates/index.html", data=json.dumps(data))
+        self.render("templates/index.html", shelfs=shelf.read(),
+                    scatter=scatter.read())
 
 
 class CerealInstanceHandler(tornado.web.RequestHandler):

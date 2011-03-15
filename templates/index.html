@@ -2,48 +2,127 @@
 
 {% block content %}
 
-<h1>Useless Figure</h1>
+<section>
 
-<div id="fig">
+<h1>Don't be Shelfish</h1>
+
+<figure>
  <script type="text/javascript+protovis">
-var data = {{ data }};
-
 /* Sizing and scales. */
 var w = 500,
-    h = 1000,
-    x = pv.Scale.linear(0, 15).range(0, w);
+    h = 750,
+    n = 9,
+    m = 3,
+    x = pv.Scale.linear(0, 250).range(0, w),
+    y = pv.Scale.ordinal(pv.range(n)).splitBanded(0, h, 4/5);
 
+/* The root panel. */
 var vis = new pv.Panel()
     .width(w)
     .height(h)
-    .left(150);
+    .bottom(20)
+    .left(20)
+    .right(10)
+    .top(5);
 
-var bar = vis.add(pv.Bar)
-    .data(data)
-    .height(20)
-    .bottom(function() this.index * 25)
-    .width(function(d) x(d.x))
-    .left(0);
+/* The bars. */
+var bar = vis.add(pv.Panel)
+    .data({{shelfs}})
+    .top(function() y(this.index))
+    .height(y.range().band)
+  .add(pv.Bar)
+    .data(function(d) d)
+    .top(function() this.index * y.range().band / m)
+    .height(y.range().band / m)
+    .left(0)
+    .width(x)
+    .fillStyle(pv.Colors.category20().by(pv.index));
 
-bar.anchor("left").add(pv.Label)
+/* The value label. */
+bar.anchor("right").add(pv.Label)
+    .textStyle("white")
+    .text(function(d) d.toFixed(1));
+
+/* The variable label. */
+bar.parent.anchor("left").add(pv.Label)
     .textAlign("right")
     .textMargin(5)
-    .text(function() data[this.index].name )
-    .fillStyle("black");
+    .text(function() "ABCDEFGHIJK".charAt(this.parent.index));
 
+/* X-axis ticks. */
 vis.add(pv.Rule)
     .data(x.ticks(5))
     .left(x)
-    .strokeStyle("#000")
+    .strokeStyle(function(d) d ? "rgba(255,255,255,.3)" : "#000")
   .add(pv.Rule)
-    .top(0)
+    .bottom(0)
     .height(5)
     .strokeStyle("#000")
-  .anchor("top").add(pv.Label)
+  .anchor("bottom").add(pv.Label)
     .text(x.tickFormat);
 
 vis.render();
  </script>
-</div>
+</figure>
+
+</section>
+
+<section>
+
+<h1>Title Match</h1>
+
+<figure>
+ <script type="text/javascript+protovis">
+/* Sizing and scales. */
+var w = 500,
+    h = 400,
+    x = pv.Scale.linear(0, 20).range(0, w),
+    y = pv.Scale.linear(0, 300).range(0, h),
+    c = pv.Scale.log(2, 12).range("orange", "brown");
+
+/* The root panel. */
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+    .bottom(20)
+    .left(20)
+    .right(10)
+    .top(5);
+
+/* Y-axis and ticks. */
+vis.add(pv.Rule)
+    .data(y.ticks())
+    .bottom(y)
+    .strokeStyle(function(d) d ? "#eee" : "#000")
+  .anchor("left").add(pv.Label)
+    .visible(function(d) d > 0 && d < 1)
+    .text(y.tickFormat);
+
+/* X-axis and ticks. */
+vis.add(pv.Rule)
+    .data(x.ticks())
+    .left(x)
+    .strokeStyle(function(d) d ? "#eee" : "#000")
+  .anchor("bottom").add(pv.Label)
+    .visible(function(d) d > 0 && d < 100)
+    .text(x.tickFormat);
+
+/* The dot plot! */
+vis.add(pv.Panel)
+    .data({{ scatter }})
+  .add(pv.Dot)
+    .left(function(d) x(d.x))
+    .bottom(function(d) y(d.y))
+    .strokeStyle(function(d) c(d.z))
+    .fillStyle(function() this.strokeStyle().alpha(.2))
+    .size(function(d) d.z)
+    .title(function(d) d.z.toFixed(1));
+
+vis.render();
+ </script>
+</figure>
+
+</section>
+
 
 {% end %}
