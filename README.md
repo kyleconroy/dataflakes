@@ -2,11 +2,11 @@ Cereal nutritional fact visualization written in Tornado and Protovis
 
 Assignment 3 for CS194 Data Sciences at UC Berkeley
 
-## Visiualizations in DataFlakes
+## Visualizations in DataFlakes
 
 The first is a bar graph showing the nutritional facts for cereals grouped by the shelf they sell on, showing that cereals on the bottom shelf are often times a healthier choice.
 
-The second visualization is a scatter plot which tells consumers which words to look for and avoid in cereal names. For example, a ceral with "Wheat" in its name probably has less sugar than a cereal with "Crisp" in its name.
+The second visualization is a scatter plot which tells consumers which words to look for and avoid in cereal names. For example, a cereal with "Wheat" in its name probably has less sugar than a cereal with "Crisp" in its name.
 
 Lastly, we use a donut chart to show the makeup of an individual cereal. With these charts, it's easy to see which cereals have the most sugar and which contain the highest amounts of fiber.
 
@@ -16,4 +16,4 @@ Using a grouped bar graph for the first visualization made sense because we were
 
 ## Data Transformation
 
-The cereal data need to be first organized into a structed format before being cleaned to remove errorneous data. Lastly, in some instances the data need to be normalized so comparisons were correct.
+The cereal data need to be first organized into a structured format before being cleaned to remove erroneous data. Lastly, in some instances the data need to be normalized so comparisons were correct.
