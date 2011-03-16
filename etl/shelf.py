@@ -82,6 +82,14 @@ def main():
         o["data"].append(v)
         o["yaxis"].append(title)
 
+    for i in output["grams"]["data"]:
+        i.reverse()
+
+    for i in output["count"]["data"]:
+        i.reverse()
+
+    for i in output["mgrams"]["data"]:
+        i.reverse()
 
     print json.dumps(output, indent=4)
 

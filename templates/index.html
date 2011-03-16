@@ -19,6 +19,7 @@
 <figure>
   <script type="text/javascript+protovis">
 var shelf_data = {{shelfs}};
+var color = pv.Colors.category20().range();
 
 /* Sizing and scales. */
 var w = 500,
@@ -71,8 +72,16 @@ vis.add(pv.Rule)
     .height(5)
     .strokeStyle("#000")
   .anchor("bottom").add(pv.Label)
-    .text(x.tickFormat);
+.text(x.tickFormat);
 
+      vis.add(pv.Dot)
+        .data(["3rd Shelf", "2nd Shelf", "1st Shelf"])
+        .top(0)
+        .right(function() 65 + this.index * 65)
+        .size(8)
+        .strokeStyle(null)
+        .fillStyle(function(d) color[this.index])
+        .anchor("right").add(pv.Label);
 
 vis.render();
  </script>
@@ -137,7 +146,18 @@ vis.add(pv.Rule)
 
 vis.anchor("bottom").add(pv.Label)
   .text("grams")
-  .top(h + 30);
+.top(h + 30);
+
+
+      vis.add(pv.Dot)
+        .data(["3rd Shelf", "2nd Shelf", "1st Shelf"])
+        .top(0)
+        .right(function() 65 + this.index * 65)
+        .size(8)
+        .strokeStyle(null)
+        .fillStyle(function(d) color[this.index])
+        .anchor("right").add(pv.Label);
+
 
 vis.render();
  </script>
@@ -204,7 +224,17 @@ vis.add(pv.Rule)
 
 vis.anchor("bottom").add(pv.Label)
   .text("milligrams")
-  .top(h + 30);
+.top(h + 30);
+
+      vis.add(pv.Dot)
+        .data(["3rd Shelf", "2nd Shelf", "1st Shelf"])
+        .top(0)
+        .right(function() 65 + this.index * 65)
+        .size(8)
+        .strokeStyle(null)
+        .fillStyle(function(d) color[this.index])
+        .anchor("right").add(pv.Label);
+
 
 vis.render();
  </script>
@@ -297,33 +327,55 @@ vis.render();
     <p>
   consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan.</p>
 
-  <figure>
 
     <script type="text/javascript+protovis">
 
       var makePieChart = function(data, name) {/* Sizing and scales. */
-      var w = 300,
-          h = 300,
+      var w = 280,
+          h = 280,
           r = w / 2,
           a = pv.Scale.linear(0, pv.sum(data)).range(0, 2 * Math.PI);
 
       /* The root panel. */
       var vis = new pv.Panel()
         .width(w)
+        .bottom(40)
         .height(h);
 
       /* The wedge, with centered label. */
+      var v = false;
       vis.add(pv.Wedge)
-        .data(data.sort(pv.reverseOrder))
+        .data(data)
         .bottom(w / 2)
         .left(w / 2)
         .innerRadius(r - 40)
         .outerRadius(r)
         .angle(a)
-        .anchor("center").add(pv.Label)
-        .visible(function(d) d > .15)
+        .event("mouseover", function() v = true)
+        .event("mouseout", function() v = false)
+      .anchor("center").add(pv.Label)
+       .visible(false)
        .textAngle(0)
-       .text(function(d) d.toFixed(2));
+      .text(function(d) d.toFixed(2));
+
+
+      vis.add(pv.Dot)
+        .data(["Sugars", "Carbs", "Fiber", "Protein"])
+        .bottom(-15)
+        .left(function() 15 + this.index * 65)
+        .size(8)
+        .strokeStyle(null)
+        .fillStyle(function(d) color[this.index])
+        .anchor("right").add(pv.Label);
+
+      vis.add(pv.Dot)
+        .data(["Fat", "Sodium", "Potassium"])
+        .bottom(-30)
+        .left(function() 15 + this.index * 65)
+        .size(8)
+        .strokeStyle(null)
+        .fillStyle(function(d) color[this.index + 4])
+        .anchor("right").add(pv.Label);
 
 
       vis.anchor("top").add(pv.Label)
@@ -332,11 +384,15 @@ vis.render();
       .font("18px sans-serif");
       vis.render();
       };
+    </script>
 
-      makePieChart({{bran}}, "{{bran_name}}");
- </script>
-
-</figure>
+    {% for k, v in piecharts.iteritems() %}
+   <figure class="piechart">
+     <script type="text/javascript+protovis">
+       makePieChart({{v}}, "{{k}}");
+     </script>
+   </figure>
+   {% end %}
 
   <p>
   consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan.</p>

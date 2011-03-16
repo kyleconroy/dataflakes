@@ -22,19 +22,22 @@ class MainHandler(tornado.web.RequestHandler):
         shelf = open("static/data/shelf.json")
         data = [ {"name": v["name"], "x": int(v["sugars"])}
                  for v in cereals.itervalues() ]
+        piecharts = {
+            "Smacks": json.dumps(pie_charts["smacks"]),
+            }
         self.render("templates/index.html", shelfs=shelf.read(),
                     scatter=scatter.read(),
-                    bran=json.dumps(pie_charts["bran-chex"]),
-                    bran_name="Bran Chex")
+                    piecharts=piecharts)
 
 
 class CerealInstanceHandler(tornado.web.RequestHandler):
 
     def get(self, cereal_id=None):
         if cereal_id in cereal_names:
+            chart = pie_charts[cereal_id]
             cereal = cereals[cereal_id]
-            self.render("templates/cereals.html", cereal=cereal,
-                        data=stats.rdi(cereal))
+            self.render("templates/cereals.html", chart=json.dumps(chart),
+                        cereal=cereal)
         else:
             raise tornado.web.HTTPError(404)
 

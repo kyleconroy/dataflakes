@@ -1,65 +1,61 @@
 {% extends "base.html" %}
 
 {% block content %}
+<section>
 
-{% if cereal %}
+  {% if cereal %}
 
- <script type="text/javascript+protovis">
-   /* Sizing and scales. */
-var w = 200,
-    h = 20,
-    fat = pv.Scale.linear(0, 65).range(0, w),
-    sod = pv.Scale.linear(0, 2300).range(0, w),
-    pot = pv.Scale.linear(0, 4700).range(0, w),
-    fib = pv.Scale.linear(0, 25).range(0, w),
-    cal = pv.Scale.linear(0, 2000).range(0, w),
-    pro = pv.Scale.linear(0, 50).range(0, w);
+    <script type="text/javascript+protovis">
 
-var rdi = function(d, n, name) {
+      var makePieChart = function(data, name) {
+      var w = 500,
+          h = 500,
+          r = w / 2,
+          a = pv.Scale.linear(0, pv.sum(data)).range(0, 2 * Math.PI);
 
-var x = pv.Scale.linear(0, n).range(0, w);
+      /* The root panel. */
+      var vis = new pv.Panel()
+        .width(w)
+        .bottom(40)
+        .height(h);
 
-var vis = new pv.Panel()
-   .width(w)
-   .height(h)
-   .left(50)
-   .right(50)
-   .bottom(25);
+      /* The wedge, with centered label. */
+      vis.add(pv.Wedge)
+        .data(data)
+        .bottom(w / 2)
+        .left(w / 2)
+        .innerRadius(r - 50)
+        .outerRadius(r)
+        .angle(a)
+      .anchor("center").add(pv.Label)
+       .visible(false)
+       .textAngle(0)
+      .text(function(d) d.toFixed(2));
 
-var bar = vis.add(pv.Bar)
-   .data([d])
-   .height(20)
-   .width(function(d) x(d))
-   .left(0);
+      var color = pv.Colors.category20().range();
 
-bar.anchor("left").add(pv.Label)
-   .textAlign("right")
-   .textMargin(5)
-   .text(name)
-   .fillStyle("black");
+      vis.add(pv.Dot)
+        .data(["Sugars", "Carbs", "Fiber", "Protein", "Fat", "Sodium", "Potassium"])
+        .bottom(-15)
+        .left(function() 15 + this.index * 65)
+        .size(8)
+        .strokeStyle(null)
+        .fillStyle(function(d) color[this.index])
+        .anchor("right").add(pv.Label);
 
-vis.add(pv.Rule)
-   .data([0, n])
-   .left(x)
-   .strokeStyle("#000")
-   .anchor("bottom").add(pv.Label)
-     .text(x.tickFormat);
+      vis.anchor("top").add(pv.Label)
+      .text(name)
+      .top(h / 2 - 9)
+      .font("35px sans-serif");
+      vis.render();
+      };
+    </script>
 
-   vis.render();
-   }
- </script>
-
-<h1> {{ cereal["name"] }} </h1>
-<h2> {{ cereal["manufacturer"]["name"] }} </h2>
-
-{% for v in data %}
-<figure>
+<figure class="lpiechart">
   <script type="text/javascript+protovis">
-    rdi({{ v["amount"] }}, {{v["rdi"]}}, "{{v["name"]}}");
+    makePieChart({{chart}}, "{{ cereal["name"] }}");
   </script>
 </figure>
-{% end %}
-
 
 {% else %}
 
@@ -77,5 +73,6 @@ vis.add(pv.Rule)
 
 {% end %}
 
+</section>
 
 {% end %}
