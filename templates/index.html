@@ -234,10 +234,12 @@ var w = 500,
 var vis = new pv.Panel()
     .width(w)
     .height(h)
-    .bottom(20)
+    .bottom(40)
     .left(75)
     .right(10)
-    .top(5);
+    .top(5)
+    .events("all")
+    .event("mousemove", pv.Behavior.point());
 
 /* Y-axis and ticks. */
 vis.add(pv.Rule)
@@ -245,7 +247,6 @@ vis.add(pv.Rule)
     .bottom(y)
     .strokeStyle(function(d) d ? "#eee" : "#000")
   .anchor("left").add(pv.Label)
-    .visible(function(d) d > 0 && d < 1)
     .text(y.tickFormat);
 
 /* X-axis and ticks. */
@@ -261,18 +262,88 @@ vis.add(pv.Rule)
 vis.add(pv.Panel)
     .data({{ scatter }})
   .add(pv.Dot)
+    .def("active", -1)
     .left(function(d) x(d.x))
     .bottom(function(d) y(d.y))
     .strokeStyle(function(d) c(d.z))
     .fillStyle(function() this.strokeStyle().alpha(.2))
     .size(function(d) d.z * 20)
-    .title(function(d) d.z.toFixed(1));
+    .event("point", function() this.active(this.index).parent)
+    .event("unpoint", function() this.active(-1).parent)
+   .anchor("right").add(pv.Label)
+    .visible(function() this.anchorTarget().active() == this.index)
+    .font("14px sans-serif")
+    .text(function(d) d.h);
+
+vis.anchor("left").add(pv.Label)
+  .text("Calories")
+  .left(-50)
+  .top(h / 2 - 35);
+
+vis.anchor("bottom").add(pv.Label)
+  .text("Sugars (g)")
+  .top(h + 30);
 
 vis.render();
  </script>
 </figure>
 
 </section>
+
+<section>
+
+  <h1>Pie Charts</h1>
+
+    <p>
+  consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan.</p>
+
+  <figure>
+
+    <script type="text/javascript+protovis">
+
+      var makePieChart = function(data, name) {/* Sizing and scales. */
+      var w = 300,
+          h = 300,
+          r = w / 2,
+          a = pv.Scale.linear(0, pv.sum(data)).range(0, 2 * Math.PI);
+
+      /* The root panel. */
+      var vis = new pv.Panel()
+        .width(w)
+        .height(h);
+
+      /* The wedge, with centered label. */
+      vis.add(pv.Wedge)
+        .data(data.sort(pv.reverseOrder))
+        .bottom(w / 2)
+        .left(w / 2)
+        .innerRadius(r - 40)
+        .outerRadius(r)
+        .angle(a)
+        .anchor("center").add(pv.Label)
+        .visible(function(d) d > .15)
+       .textAngle(0)
+       .text(function(d) d.toFixed(2));
+
+
+      vis.anchor("top").add(pv.Label)
+      .text(name)
+      .top(h / 2 - 9)
+      .font("18px sans-serif");
+      vis.render();
+      };
+
+      makePieChart({{bran}}, "{{bran_name}}");
+ </script>
+
+</figure>
+
+  <p>
+  consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan.</p>
+
+
+</section>
+
 
 
 {% end %}

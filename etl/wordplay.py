@@ -27,7 +27,7 @@ def main():
             "x": v["sugars"] / v["count"],
             "y": v["calories"] / v["count"],
             "z": v["count"],
-            "h": k,
+            "h": k.title(),
             }
 
     # Filter and nomalize

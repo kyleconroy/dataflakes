@@ -13,6 +13,7 @@ cereals = json.load(open("static/data/cereals.json"))
 cereal_list = sorted([ cereals[k] for k in cereals.iterkeys() ],
                      key=lambda x: x["name"])
 cereal_names = set(cereals.keys())
+pie_charts = json.load(open("static/data/piecharts.json"))
 
 class MainHandler(tornado.web.RequestHandler):
 
@@ -22,7 +23,9 @@ class MainHandler(tornado.web.RequestHandler):
         data = [ {"name": v["name"], "x": int(v["sugars"])}
                  for v in cereals.itervalues() ]
         self.render("templates/index.html", shelfs=shelf.read(),
-                    scatter=scatter.read())
+                    scatter=scatter.read(),
+                    bran=json.dumps(pie_charts["bran-chex"]),
+                    bran_name="Bran Chex")
 
 
 class CerealInstanceHandler(tornado.web.RequestHandler):
