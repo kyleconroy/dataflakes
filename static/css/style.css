@@ -98,7 +98,7 @@ a.download {
 
 body {
   border-top: 5px solid #262626;
-  background: #ffffff url("../images/bg.png") repeat-x;
+  background: #ffffff url("../images/bg.png") repeat-x  ;
 }
 
 
@@ -134,8 +134,8 @@ top: 140px;
 left: 415px;
 }
 header nav ul li { display: inline-block; margin-right: 15px;}
-header nav ul li a{ text-decoration: none; color: #CCCCCC; font-family: 'Kreon', arial, serif; font-size: 1em;}
-header nav ul li a:hover{ color: #FFFFFF }
+header nav ul li a{ text-decoration: none; color: #CACACA; font-family: 'Kreon', arial, serif; font-size: 1em;}
+header nav ul li a:hover{ color: #000 }
 
 section h1 { font-size: 2em; margin-bottom: 1em}
 section p { margin-bottom: 1em; line-height: 16pt;}
