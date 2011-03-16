@@ -137,8 +137,8 @@ header nav ul li { display: inline-block; margin-right: 15px;}
 header nav ul li a{ text-decoration: none; color: #CACACA; font-family: 'Kreon', arial, serif; font-size: 1em;}
 header nav ul li a:hover{ color: #000 }
 
-section h1 { font-size: 2em; margin-bottom: 1em}
-section p { margin-bottom: 1em; line-height: 16pt;}
+section h1 { font-size: 2em; margin-bottom: 20px; margin-top: 5px;}
+section p { margin-bottom: 20px; line-height: 16pt;}
 
 #cereals ul {
   list-style: square;

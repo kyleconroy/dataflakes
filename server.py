@@ -27,7 +27,7 @@ class MainHandler(tornado.web.RequestHandler):
             }
         self.render("templates/index.html", shelfs=shelf.read(),
                     scatter=scatter.read(),
-                    piecharts=piecharts)
+                    piecharts=piecharts, corn_chex=json.dumps(pie_charts["corn-chex"]))
 
 
 class CerealInstanceHandler(tornado.web.RequestHandler):
@@ -103,5 +103,5 @@ application = tornado.web.Application([
 ], **settings)
 
 if __name__ == "__main__":
-    application.listen(8888)
+    application.listen(8080)
     tornado.ioloop.IOLoop.instance().start()
